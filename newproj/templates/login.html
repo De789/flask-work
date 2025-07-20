@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    
+    <!-- Link to JS -->
+    <script type="text/javascript" src="{{ url_for('static', filename='hello.js') }}"></script>
+
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <form method="post">
+        <label for="nm">Name:</label>
+        <input type="text" id="nm" name="name" required>
+
+        <!-- Use input type="submit" for form submission -->
+        <input type="button" class="submit" onclick="sayHello()" value="Submit">
+    </form>
+</body>
+</html>

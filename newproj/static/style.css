@@ -1,0 +1,30 @@
+/* static/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 100px;
+}
+
+form {
+    background-color: white;
+    padding: 10px;
+    display:inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.submit{
+    color:white;
+    background-color: orange;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
